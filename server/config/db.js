@@ -6,7 +6,8 @@ const connection = mysql.createPool({
   user: "root",
   password: "",
   database: "partyup",
-  dateStrings: 'true'
+  dateStrings: 'true',
+  multipleStatements: 'true'
 });
 
 module.exports = connection;
