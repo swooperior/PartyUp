@@ -1,0 +1,32 @@
+Next project:
+	+ Use an express backend to serve an API from a database
+		- MySQL or NoSQL (Mongodb) To be decided.
+		- Requries node mysql + express
+	+ Uses a react front end to serve data fetched from express api
+
+	--
+	GroupUP version 2.0 for WoW classic.
+	'Top level variables'
+		- Region (EU / Americas)
+		- Server (Gandling, Garr, etc)
+	'Auth Routes'
+		- Uses Battle.net for OAuth, creates account.
+		- Only really valid if character info is available.
+
+	Event Types:
+		- Dungeons
+		- Raids
+		- Battlegrounds
+		- World PvP
+
+	+ Guild Recruitment:
+		- Allows users to register a guild, possibly validated via battle.net
+		- Roster available, and guild only events (requires guild access to register for events)
+	
+	+ Event Calendar
+
+	+ Event RSS (Filterable feed of events, such as 'BWL Raids' etc.
+
+	User 'Validation'
+		- Points based on event attendance
+			- Thumbs system?  Up or down?
