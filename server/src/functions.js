@@ -56,39 +56,6 @@ for(record of results){
     return resultsArray;
 }
 
-// var resultsArray = [];
-// 
-// for(record of results){
-//     let nro = JSON.parse(JSON.stringify(recordObj));
-//     let nmo = JSON.parse(JSON.stringify(memberObj));
-//     for(rkey in record){
-//     //Copy event details to object
-//     for(nkey in nro){
-//         if(rkey === nkey){
-//         nro[nkey] = record[nkey];
-//         }
-//     }
-//     //Copy member details to object
-//     for(mkey in nmo){
-//         if(mkey === rkey){
-//             nmo[mkey] = record[mkey];
-//         }
-//     }
-//     }
-//     if(record.uid != null){
-//         nro.members.push(nmo);
-//     }else{
-//         nro.members = [];
-//     }
-//     var exists = resultsArray.find(o => o.eid == record.eid);
-//     if(exists){
-//         let i = resultsArray.findIndex(o => o.eid == record.eid);
-//         resultsArray[i].members.push(nmo);
-//     }else{
-//         resultsArray.push(nro);
-//     }
-// }
-
 module.exports = {
     parseEvents
 };

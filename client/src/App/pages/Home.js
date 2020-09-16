@@ -1,20 +1,18 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
+import EventList from '../components/EventList';
 
-class Home extends Component {
-  render() {
+const Home = () => {
     return (
     <div className="App">
-      <h1>Project Home</h1>
-      {/* Link to List.js */}
-      <Link to={'./list'}>
-        <button variant="raised">
-            My List
-        </button>
-      </Link>
+      
+      {/* <Link to={'./list'}> */}
+      {/* </Link> */}
+      <EventList eventType="Upcoming Events"/>
+      
     </div>
     );
-  }
 }
+
 export default Home;

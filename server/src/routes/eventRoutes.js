@@ -35,7 +35,7 @@ router.get('/api/events/', (req, res) => {
         }
 
         resultsArray = helper.parseEvents(results);
-
+        console.log(resultsArray);
         return res.status(200).send(resultsArray);
     });
 });
